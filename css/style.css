@@ -1,0 +1,323 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* Facebook header start here */
+.main-header{
+    width: 100%;
+    height: 80px;
+    background: linear-gradient(#3b5998 , #3b5998);
+    overflow: hidden;
+}
+.headerbox{
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+}
+.leftlogo{
+    width: 60%;
+    float: left;
+}
+.leftlogo img{
+    width: 170px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.rightlogin{
+    width: 40%;
+    float: left;
+}
+.logname{
+    float: left;
+}
+.logname label{
+    color: white;
+    font-family: tahoma;
+    font-size: 12px;
+}
+.logname input{
+    padding: 2px 4px;
+    margin-top: 5px;
+    outline: 1px solid #1d2a5b;
+}
+.logname label, .logname input, .logpass label, .logpass input{
+    display: block;
+    cursor: pointer;
+}
+.logpass{
+    float: left;
+    
+}
+.logpass label{
+    color: white;
+    font-family: tahoma;
+    font-size: 12px;
+}
+.logpass input{
+    padding: 2px 4px;
+    margin-top: 5px;
+    margin-bottom: 1px;
+    outline: 1px solid #1d2a5b;
+}
+.logpass a{
+    text-decoration: none;
+    font-family: tahoma;
+    font-size: 11px;
+    color:rgb(230, 228, 228);
+}
+.logpass a:hover{
+    text-decoration: underline;
+}
+.logname , .logpass{
+    margin-right: 13px;
+}
+.logsub{
+    float: left;
+}
+.logsub input{
+    background: #627aac;
+    color: white;
+    font-family: tahoma;
+    font-size: 12px;
+    outline: 1px solid #29447e;
+    border:none;
+    padding: 4px 7px;
+    font-weight: bold;
+    margin-top: 19px;
+    cursor: pointer;
+}
+.logsub input:focus{
+    outline: 1px solid black;
+    background: #6689d4;
+}
+/* Facebook header part end */
+
+
+/* Facebook Middle box start here */
+.mainmid{
+    width: 100%;
+    background: linear-gradient(rgb(235, 235, 235) , #e7ebf2);
+    overflow: hidden;
+}
+.midle{
+    width: 80%;
+    margin: auto;
+    margin-top: 15px;
+}
+.leftbox{
+    width: 57%;
+    float: left;
+    margin-top: 20px;
+}
+.leftbox h2{
+    width: 85%;
+    float: left;
+    color: #0e385f;
+    font-family: tahoma;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.leftbox img{
+    width: 90%;
+}
+.rightbox{
+    width: 43%;
+    float: left;
+}
+.rightbox h1{
+    font-family:serif;
+    font-size: 40px;
+    color: #333333;
+}
+.rightbox h3{
+    color: #818285;
+    font-family: tahoma;
+    font-weight: normal;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+    margin-top: 4px;
+}
+.namebox{
+
+}
+.namebox input{
+    padding: 6px 5px;
+    width: 199px;
+    margin-right: 10px;
+    border: 1px solid #bdc7d8;
+    border-radius: 7px;
+    outline: none;
+    font-size: 18px;
+    box-sizing: border-box;
+    font-family: tahoma;
+}
+.fullnamebox{
+
+}
+.fullnamebox input{
+    width: 413px;
+    margin-top: 10px;
+    padding: 6px 5px;
+    border: 1px solid #bdc7d8;
+    border-radius: 7px;
+    outline: none;
+    font-size: 18px;
+    box-sizing: border-box;
+    font-family: tahoma;
+}
+.inputbox{
+
+}
+.inputbox h3{
+    color: #333333;
+    margin-top: 16px;
+    margin-bottom: 10px;
+}
+.inputbox select{
+    padding: 5px;
+    border: 1px solid #bdc7d8;
+    outline: none;
+    font-size: 16px;
+    box-sizing: border-box;
+    font-family: tahoma;
+}
+.inputbox select{
+    float: left;
+}
+.inputbox a{
+    display: block;
+    float: left;
+    width: 159px;
+    text-decoration: none;
+    margin-left: 10px;
+    font-family: tahoma;
+    font-weight: normal;
+    font-size: 13px;
+}
+.inputbox a:hover{
+    text-decoration: underline;
+}
+.genderbox{
+    width: 50%;
+}
+.genderbox input{
+    margin: 22px 7px 0px 10px;
+}
+.genderbox label{
+    font-size: 20px;
+    font-family: tahoma;
+    font-weight: normal;
+    margin-right: 4px;
+}
+.para p{
+    width: 79%;
+    margin-top: 15px;
+    color: #777777;
+    font-family: tahoma;
+    font-size: 13px;
+}
+.para a{
+    text-decoration: none;
+    font-family: tahoma;
+    font-size: 13px;
+}
+.para a:hover{
+    text-decoration: underline;
+}
+.butt input{
+    margin-top: 20px;
+    padding: 4px 60px;
+    font-family: tahoma;
+    font-weight: normal;
+    font-size: 19px;
+    background: linear-gradient(#66ab54 , #588944);
+    outline: none;
+    border: 2px solid #3b6e22;
+    color: white;
+    box-sizing: border-box;
+}
+.brdr{
+    margin-top: 20px;
+    margin-bottom: 14px;
+    border: none;
+    width: 415px;
+    height: 1px;
+    background-color:#a0a9c0 ;
+}
+.ppp p{
+    font-family: tahoma;
+    color: #666;
+    font-size: 16px;
+    margin-bottom: 70px;
+}
+.ppp a{
+    text-decoration: none;
+}
+.ppp a:hover{
+    text-decoration: underline;
+}
+.mainfooter{
+    background-color: white;
+    width: 100%;
+    overflow: hidden;
+}
+.midfooter{
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+}
+.footer1 a{
+    display: inline-block;
+    font-family: tahoma;
+    font-size: 11px;
+    text-decoration: none;
+    padding: 0px 10px 0px 5px;
+    margin-left: 6px;
+}
+.footer1 a:hover{
+    text-decoration: underline;
+}
+.brdd{
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 14px;
+    border: none;
+    width: 100%;
+    margin-left: 10px;
+    height: 1px;
+    background-color:#a0a9c0 ;
+}
+.footer2{
+    width: 90%;
+}
+.footer2 a{
+    display: inline-block;
+    margin-top: 7px;
+    font-family: tahoma;
+    font-size: 12px;
+    text-decoration: none;
+    padding: 0px 10px;
+}
+.footer2 a:hover{
+    text-decoration: underline;
+}
+.mepart{
+    margin-left: 10px;
+    margin-top: 18px;
+}
+.mepart p{
+    font-family: tahoma;
+    color: rgb(36, 36, 36);
+}
+.mepart p a{
+    text-decoration: none;
+    font-family: tahoma;
+    color: #200079;
+    ;
+    
+}
+.mepart p a:hover{
+    text-decoration: underline;
+}
+/* Facebook Middle box end */
